@@ -17,6 +17,7 @@ namespace NC_Reactor_Planner
         public Dictionary<string, List<Vector3>> CompressedReactor;
         public Vector3 InteriorDimensions;
         public Fuel UsedFuel;
+        public Fuel aFuel;
 
         public CompressedSaveFile(Version sv, Dictionary<string, List<Vector3>> cr, Vector3 id, Fuel uf)
         {
